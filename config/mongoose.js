@@ -3,7 +3,7 @@ const mongoose = require('mongoose'); // momgoose required
 // const database = process.env.DB_URL
 
 // mongoose.connect(database); 
-mongoose.connect('mongodb://localhost:27017/issueTracker',{
+mongoose.connect('mongodb+srv://shivanikri:shivani123@cluster0.zlajqmm.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     family:4,
